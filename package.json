@@ -1,0 +1,24 @@
+{
+  "name": "goit-js-hw-11-promisification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11-promisification/",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Am4rel/goit-js-hw-11-promisification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Am4rel/goit-js-hw-11-promisification/issues"
+  },
+  "homepage": "https://github.com/Am4rel/goit-js-hw-11-promisification#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
